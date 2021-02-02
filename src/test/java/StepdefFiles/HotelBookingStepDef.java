@@ -156,4 +156,10 @@ public class HotelBookingStepDef extends BaseClass {
 		verifyText(homepage.lnkHome, name);
 
 	}
+	@Then("^Close Browser$")
+	public void close_Browser() throws Throwable {
+		javawait(5000);
+		closeBrowser();
+
+	}
 }

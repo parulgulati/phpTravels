@@ -17,6 +17,7 @@ Scenario Outline: Verify the CMS changes from User Profile
 Given User Navigate to Application "<reqUrl>"
 	Then User should Login Successfully
 	Then Verify CMS Updates "<pagetitle>" 
+	Then Close Browser
 	
 Examples:
 |reqUrl|pagetitle|

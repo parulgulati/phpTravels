@@ -17,6 +17,7 @@ Scenario Outline: Check if the user is able to access the section that they are 
 Given User Navigate to supplier site
 	Then Enter Credentials and Login "<username>" "<password>"
 	And User verify error Message
+	Then Close Browser
 Examples:
 |username|password|
 |username|password|

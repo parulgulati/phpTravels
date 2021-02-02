@@ -25,6 +25,7 @@ public class UserLoginAccountStepDef extends BaseClass {
 //Fetching the URL from Properties file and hitting the Website after Initializing the WebDriver
 	@Given("^User Navigate to Application \"([^\"]*)\"$")
 	public void user_Navigate_to_Application(String reqURL) throws Throwable {
+		
 		String url = GetData(reqURL, envfile);
 		initURL(url);
 		takeScreenshot("PHPTravelsLogin");
