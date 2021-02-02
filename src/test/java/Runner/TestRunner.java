@@ -22,7 +22,7 @@ features = "src/test/java/FeatureFiles"
 ,glue= {"StepdefFiles"},
 plugin = {"com.cucumber.listener.ExtentCucumberFormatter:"},
 monochrome = true,
-tags="@AddANewHotel,@ExtraPoints"
+tags="@CustomerLogin,@AddANewHotel,@BookAHotel,@CMSUpdate,@ExtraPoints"
 )
 
 public class TestRunner extends BaseClass {
